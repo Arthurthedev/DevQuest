@@ -1,0 +1,37 @@
+
+    /* 
+    Forma colocando cada lado separado
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    margin-right: 30px; 
+*/
+/* 
+Forma colocando o mesmo valor no topo e laterais
+    margin: 30px 15px; 
+*/
+/* E essa seria a forma de colocar todos os lados do mesmo tamanho 
+    margin: 30px;
+*/
+p{
+    margin: 30px 15px;
+    padding: 30px;
+    background-color: aquamarine;
+    border-style: solid;
+    border-color: red;
+    border-width: 15px;
+}
+h1{
+    border-style: solid;
+    border-color: red yellow blue blueviolet;
+    border-width: 15px;
+}
+/* O padding, basicamente adiciona espaços interno nos elementos, e podemos escrever de várias formas, como no exemplo abaixo:
+
+Adicionando padding em todos os lados separadamente (seguindo o sentido horário):
+
+padding: 30px 10px 5px 2px;
+
+estrutura: topo direita baixo esquerda
+
+Podemos escrever dessa forma ou praticamente utilizar padding: 30px; que será aplicado todos os lados do elemento. Não é obrigatório passar os 4 lados.  */

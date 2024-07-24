@@ -1,0 +1,21 @@
+    .pai{
+        background-color: bisque;
+        width: 50%;
+        font-size: 2.5em;
+    }
+    /* 1em = 16px */
+    .filho{
+        background-color: blue;
+        width: 50%;
+        font-size: 1.5em;
+    }
+    html{
+        background-color: #ccc;
+        font-size: 20px;
+        
+    }
+    body{
+        background-color: blueviolet;
+        width: 50%;
+        font-size: 2em;
+    }

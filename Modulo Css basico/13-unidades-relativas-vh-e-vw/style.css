@@ -1,0 +1,23 @@
+body{
+    margin: 0px;
+    width: 300px;
+}
+
+
+
+
+
+.primeiro-elemento{
+    width: 100vw;
+    background-color: aquamarine;
+}
+.segundo-elemento{
+    width: 100%;
+    background-color: blueviolet;
+}
+.vw{
+    font-size: 3vw;
+}
+.vh{
+    font-size: 10vh;
+}

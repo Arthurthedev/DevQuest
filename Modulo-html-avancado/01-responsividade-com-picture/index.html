@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reponsividade com picture</title>
+</head>
+<body>
+    <h1>Reponsividade com picture</h1>
+    <br>
+    <h2>Picture com mobile first</h2>
+    <picture>
+        <source media="(min-width: 1024px)" srcset="./src/images/gato-1100.png" />
+        <source media="(min-width: 768px)" srcset="./src/images/gato-780.png">
+        <source media="(min-width: 465px )" srcset="./src/images/gato-510.png">
+        <img src="./src/images/gato-500.png" alt="gatinho">
+    </picture>
+ 
+</body>
+</html>

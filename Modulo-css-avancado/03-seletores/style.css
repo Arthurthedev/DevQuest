@@ -1,0 +1,39 @@
+h1{
+    color: green;
+}
+.paragrafo{
+    color: blue;
+}
+#menu{
+    color: red;
+    margin-left: 100px;
+}
+*{
+    padding: 0  ;
+}
+.titulo{
+    font-size: 30px;
+}
+.titulo.laranja{
+    color: orange;
+}
+.titulo.vermelho{
+    color: red;
+}
+header, span{
+    font-size: 40px;
+}
+.sobre .texto{
+    color: pink;
+}
+/* pai > filho{
+    propriedade: valor
+} */
+/* div > p{
+color: royalblue;} */
+div + p{
+    color: royalblue;
+}
+a[target=_blank]{
+    color: red;
+}

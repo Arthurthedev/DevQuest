@@ -1,0 +1,27 @@
+.flex-0{
+    /* flex-grow: ;
+    flex-shrink: ;
+    flex-basis: ; */
+    flex: 0;
+}
+.item-3{
+    order: 1;
+}
+.item-5{
+    order: -1;
+}
+.align-self .item5{
+    align-self: 0;
+}
+.align-self.start .item-3{
+    align-self: flex-start;
+}
+.align-self.end .item-3{
+    align-self: flex-end;
+}
+.align-self.center .item-3{
+    align-self: center;
+}
+.align-self.strech .item-3{
+    align-self: stretch;
+}

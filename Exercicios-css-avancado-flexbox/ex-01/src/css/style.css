@@ -1,0 +1,27 @@
+*{
+    background-color: hsl(185, 75%, 39%);
+    color: hsl(227, 10%, 46%);
+}
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap');
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}   
+.card{
+  display: flex;
+  width: 100px;
+  height: 100px;
+  background-color: white;
+ margin-top: 100px;
+ border-radius: 10%;
+
+}
+img.vitor{
+  display: block;
+  width: 20px;
+  height: 20px;
+}

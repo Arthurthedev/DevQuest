@@ -3,10 +3,10 @@
     --tamanho-da-fonte-padrao: 30px;
 }
 h2{
-    --cor-padrao: green;
+    --cor-padrao-h2: purple;
     color: var(--cor-padrao, blue);
     font-size: var(--tamanho-da-fonte-padrao, 20px);
-    background-color: var(--cor-padrao);
+    background-color: var(--cor-padrao-h2);
 }
 h3{
     color: var(--cor-padrao, blue);

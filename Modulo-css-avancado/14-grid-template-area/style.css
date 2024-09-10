@@ -1,32 +1,53 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
-.cabecalho{
+
+.cabecalho {
     background-color: aquamarine;
 }
-.menu{
+
+.menu {
     background-color: cornflowerblue;
 }
-.secao-principal{
+
+.secao-principal {
     background-color: hotpink;
 }
-.aside{
+
+.aside {
     background-color: orangered;
 }
-.rodape{
+
+.rodape {
     background-color: green;
 }
-.container{
+
+.container {
     display: grid;
-    grid-template-areas: ;
+    /* grid-template-areas: "cabecalho cabecalho cabecalho" "menu . aside" "rodape rodape rodape"; */
+    grid: "cabecalho cabecalho cabecalho" 200px
+          "menu secao-principal aside" 400px
+           "rodape rodape rodape" 250px 
+           / 160px auto 160px;
 }
-.cabecalho{
+
+.cabecalho {
     grid-area: cabecalho;
 }
-.menu{
+
+.menu {
     grid-area: menu;
 }
-.secao-principal{
+
+.secao-principal {
     grid-area: secao-principal;
+}
+
+.aside {
+    grid-area: aside;
+}
+
+.rodape {
+    grid-area: rodape;
 }

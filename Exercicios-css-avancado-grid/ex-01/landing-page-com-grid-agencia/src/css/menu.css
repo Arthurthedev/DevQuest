@@ -14,6 +14,14 @@
 }
 
 /* RESPONSIVE */
+.header nav label{
+    display: flex;
+    flex-direction: column;
+}
+
+.header input{
+    display: none;
+}
 
 .header .menu{
     display: none;
@@ -21,10 +29,7 @@
     height: 60px;
     align-self: flex-end;
 }
-.header nav label{
-    display: flex;
-    flex-direction: column;
-}
+
 .header .hamburguer{
     background-color: #000;
     position: relative;
@@ -50,9 +55,6 @@
 }
 .header .hamburguer::after{
     bottom: -10px;
-}
-.header input{
-    display: none;
 }
 .header input:checked ~ label .hamburguer{
     transform: rotate(45deg);

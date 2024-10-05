@@ -36,11 +36,59 @@ body{
 }
 .hero{
     grid-area: hero;
+    height: 89vh;
+    background: url('../images/lemons.jpg'); 
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.hero h2{
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 4rem;
+}
+.hero::after{
+    content: url('../images/seta_preta.png');
+    position: absolute;
+    height: 35px;
+    bottom: 40px;
+    animation: downarrow 0.6s infinite alternate ease-in-out;
+}
+@keyframes downarrow{
+    0%{
+        transform: translateY(0);
+        opacity: 0.4;
+    }
+    100%{
+        transform: translateY(0.4em);
+        opacity: 0.9;
+    }
+}
+@media(max-width: 425px){
+    .hero{
+        height: 60vh;
+    }
 }
 
 .about{
     grid-area: about;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: white;
 }
+.about .image{
+    height: 100%;
+    width: 100%;
+}
+.about .image.right{
+    background: url('../images/bridge.jpg') center center no-repeat;
+    background-size: cover;
+}
+
 
 .services{
     grid-area: services;

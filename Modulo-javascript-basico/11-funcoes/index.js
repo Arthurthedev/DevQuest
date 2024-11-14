@@ -5,7 +5,7 @@
 // nome da funcao ()
 
 // function incentivo(){
-//     alert("Voce consegue Arthur, continue seguindo em frente")
+//     alert("Meu nome é Arthur, eu sou um progamador")
 // }
 // incentivo()
 
@@ -19,6 +19,6 @@ resultadoDaSoma = soma(resultadoDaSoma, 10) //17
 console.log(resultadoDaSoma)
 
 function incentivo(nome = " amigão"){
-    alert("Voce consegue" + nome + ", continue seguindo em frente")
+    alert("Meu nome é" + nome + ", eu sou um progamador")
 }
 incentivo(" Arthur")

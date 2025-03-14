@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+html{
+    font-family: Roboto, sans-serif;
+}
+main .container{
+    display: grid;
+    grid-template-areas: "destaque propaganda"
+                         "destaque sugeridos" ;
+    grid-template-columns: 1fr, 270px;
+    grid-template-rows: 56px, 1fr;
+    background-color: #F7F7F7;
+    max-width: 900px;
+    padding: 30px;
+    gap: 20px;
+}
+
+main .container .destaque{
+    grid-area: destaque;
+}
+
+main .container .destaque img{
+    margin-bottom: 10px;
+}
+
+main .container .destaque h1{
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+main .container .destaque .vizualizacoes{
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+main .container .destaque p{
+    font-size: 16px;
+    font-weight: 300;
+}
+
+main .container .propaganda{
+    grid-area: propaganda;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+main .container .propaganda p{
+    position: absolute;
+    color: white;
+}
+
+main .container .sugeridos{
+    grid-area: sugeridos;
+}
+
+main .container .sugeridos .video{
+    display: flex;
+    gap: 5px;
+    padding: 5px;
+    align-items: center;
+}
+
+main .container .sugeridos .video .informacoes-sugeridos h2{
+    font-size: 13px;
+    margin-bottom: 2px;
+}
+
+main .container .sugeridos .video .informacoes-sugeridos p{
+    font-size: 11px;
+    font-weight: 300;
+    margin-bottom: 2px;
+}
+

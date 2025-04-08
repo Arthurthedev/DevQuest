@@ -18,7 +18,7 @@ const d = "3"
 const e = 3
 const f = "3"
 
-//console.log(e!==f)
+// console.log(e!==f)
 /* 
 != ----- não igual ---- g!= ---- verdadeiro se os valores e tipos nao forem iguais
 */ 

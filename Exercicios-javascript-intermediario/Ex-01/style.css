@@ -1,0 +1,25 @@
+main{
+    margin: 0 auto;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .bloco{
+    display: flex;
+    flex-direction: column;
+}
+main .bloco .quadrado1{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+}
+
+main .bloco .quadrado2{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    margin-bottom: 10px;
+}

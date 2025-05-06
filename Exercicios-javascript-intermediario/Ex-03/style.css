@@ -1,0 +1,17 @@
+main{
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quadrado{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+}
+
+.azul{
+    background-color: blue;
+}

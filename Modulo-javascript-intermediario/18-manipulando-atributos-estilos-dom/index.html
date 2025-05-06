@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulando atributos e estilos com dom</title>
+    <style>
+        .fonte-grande{
+            font-size: 30px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Manipulando estilos</h1>
+    <button onclick="alterarCorDeFundoPrimeiroPost()">Alterar cor de fundo do primeiro post</button>
+    <br>
+    <br>
+    <button onclick="aumentarFontedoSegundoPost()">Aumentar a fonte do segundo post</button>
+    <article class="post">
+        <p><strong>Arthur Moraes</strong> <span>@ArthurM - 25min</span></p>
+        <p class="texto-post">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis consectetur commodi minus officia delectus ex quod quo deserunt tempore doloremque, magni laboriosam tempora error quam beatae consequatur. Recusandae, deserunt consequuntur. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore at eveniet neque aliquam, possimus eum eligendi ipsum repellat tempora impedit rerum quibusdam, sint tenetur! Asperiores porro sit excepturi vel explicabo.
+        </p>
+        <br>
+    </article>
+    <article class="post">
+        <p><strong>Arthur Moraes</strong> <span>@ArthurM - 25min</span></p>
+        <p class="texto-post">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis consectetur commodi minus officia delectus ex quod quo deserunt tempore doloremque, magni laboriosam tempora error quam beatae consequatur. Recusandae, deserunt consequuntur. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore at eveniet neque aliquam, possimus eum eligendi ipsum repellat tempora impedit rerum quibusdam, sint tenetur! Asperiores porro sit excepturi vel explicabo.
+        </p>
+        <br>
+    </article>
+    <h2>Manipulando atributos</h2>
+    <button onclick="marcarRadio('M')">Marcar Radio Masculino</button>
+    <button onclick="marcarRadio('F')">Marcar Radio Feminino</button>
+    <br>
+    <br>
+    Masculino: <input type="radio" name="genero" id="genero-masculino">
+    Feminino: <input type="radio" name="genero" id="genero-feminino">
+    <script src="index.js"></script>
+</body>
+</html> 

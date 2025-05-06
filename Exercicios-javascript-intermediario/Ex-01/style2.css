@@ -1,0 +1,27 @@
+main{
+    margin: 0 auto;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+}
+
+main .quadrado{
+    width: 100px;
+    height: 100px;
+}
+
+main .azul{
+    background-color: blue;
+}
+
+main .vermelho{
+    background-color: red;
+    margin-bottom: 10px;
+}
+
+main .amarelo{
+    background-color: yellow;
+}

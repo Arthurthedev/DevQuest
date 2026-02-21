@@ -1,0 +1,8 @@
+.card{
+    background-color: lightgreen;
+    color: blue;
+    padding: 20px;
+    width: 200px;
+    margin: 10px;
+    text-align: center;
+}

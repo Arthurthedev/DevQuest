@@ -1,0 +1,80 @@
+main{
+    height: 100vh;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E5E5;
+}
+
+main .card{
+    position: relative;
+    background-color: white;
+    width: 655px;
+    height: 347px;
+    border-radius: 21px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+main .card .avatar{
+    position: absolute;
+    width: 278px;
+    height: 293px;
+    left: -90px;
+}
+
+main .card .info{
+    margin-left: 210px;
+    margin-top: 30px;
+}
+
+main .card .info h1{
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+main .card .info .caixa{
+    border-bottom: 1px solid #D4D4D4;
+}
+main .card .info .texto{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    align-items: center;
+    
+}
+
+main .card .info .texto p{
+    font-size: 17px;
+    font-weight: 500;
+}
+
+main .card .info .caixa:last-child{
+    border-bottom: none;
+}
+
+main .card .info .texto .seta{
+    width: 15px;
+    height: 8.86px;
+    margin-left: 20px;
+}
+
+main .card .info .novo-texto{
+    display: none;
+    width: 347px;
+    font-size: 15px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+main .card .info .mostrar{
+    display: block;
+}
+
+.vermelho{
+    filter: invert(18%) sepia(93%) saturate(7482%) hue-rotate(356deg) brightness(96%) contrast(122%);
+}
+
